@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Kegiatan</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Kegiatan</h1>
+    <h2>Data Pendaftar</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="4" cellpadding="4" border="1"
+            style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <td style="width: 32%;">
+                <label for="namalengkap"><strong>Nama Lengkap</strong></label>
+            </td>
+            <td>
+                <input type="text" id="namalengkap" name="namalengkap" size="30" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="NIM"><strong>NIM</strong></label>
+            </td>
+            <td>
+                <input type="text" id="NIM" name="NIM" size="30" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="jumlah"><strong>Program Studi</strong></label>
+            </td>
+            <td>
+                <select id="jumlah" name="jumlah">
+                    <option>Informatika</option>
+                    <option>Sistem Informasi</option>
+                    <option>Teknik Industri</option>
+                </select>
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <strong>Jenis Kelamin</strong>
+            </td>
+            <td>
+                 <input type="radio" id="lakilaki" name="gender"
+                        value="Laki-laki" />
+                <label for="lakilaki">Laki-laki</label>
+                <input type="radio" id="Perempuan" name="gender"
+                        value="Perempuan" />
+                <label for="Perempuan">Perempuan</label>
+            </td>
+        </tr>
+        </table>
+    </form>
+    <h2>Pilihan Kegiatan</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="4" cellpadding="4" border="1"
+            style="border-collapse: collapse; width: 100%;">
+            <tr>
+            <td style="width: 32%;">
+                <strong>Jenis Kegiatan</strong>
+            </td>
+            <td>
+                 <input type="radio" id="Seminar" name="kegiatan"
+                        value="Seminar" />
+                <label for="Seminar">Seminar</label>
+                <input type="radio" id="Pelatihan" name="kegiatan"
+                        value="Pelatihan" />
+                <label for="Diskusi">Diskusi</label>
+                <input type="radio" id="Diskusi" name="kegiatan"
+                        value="Diskusi" />
+                <label for="Diskusi">Diskusi</label>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align:center;">
+                <strong>Bidang Minat</strong>
+            </td>
+            <td>
+                <p>
+                    <input type="checkbox" id="Teknologi" name="bidang"
+                        value="Teknologi" />
+                    <label for="Teknologi">Teknologi</label>
+                </p>
+                <p>
+                   <input type="checkbox" id="Organisasi" name="bidang"
+                        value="Organisasi" />
+                    <label for="Organisasi">Coding</label>
+                </p>
+                <p>
+                   <input type="checkbox" id="Karier" name="bidang"
+                        value="Karier" />
+                    <label for="Karier">Coding</label>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="jumlah1"><strong>Waktu Kegiatan</strong></label>
+            </td>
+            <td>
+                <select id="jumlah1" name="jumlah1">
+                    <option>Pagi</option>
+                    <option>Siang</option>
+                    <option>Sore</option>
+                </select>
+            </td>
+        </tr>
+
+        </table>
+    </form>
+    <h2>Kelengkapan Pendaftaran</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="4" cellpadding="4" border="1"
+            style="border-collapse: collapse; width: 100%;">
+            <tr>
+            <td style="width: 32%;">
+                <label for="deskripsi">
+                    <strong>Harapan Mengikuti Kegiatan</strong>
+                </label>
+            </td>
+            <td>
+                <textarea id="deskripsi" name="deskripsi"
+                            rows="10" cols="30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="pembayaran"><strong>Bukti Pembayaran</strong></label>
+            </td>
+
+            <td>
+                <input type="file" id="pembayaran" name="pembayaran"
+                        accept="application/pdf,image/jpeg,image/png" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" name="daftar"
+                            value="Kirim"/>
+            </td>
+        </tr>
+
+        </table>
+    </form>
+</body>
+</html>
