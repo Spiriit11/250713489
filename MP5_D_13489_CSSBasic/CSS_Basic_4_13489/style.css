@@ -1,0 +1,58 @@
+.link a{
+    text-decoration: none;
+    color: rgb(0, 0 , 0);
+    text-align: center;
+}
+
+#informasi h3{
+    text-align: center;
+    background-color: rgb(46,104,169);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -10px;
+    padding: 20px 0;
+    color: white;
+}
+#informasi p{
+    text-align: center;
+    background-color: rgb(46,104,169);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -10px;
+    padding: 20px 0;
+    color: white;
+}
+
+.link2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(235,166,17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+.link3 {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(235,166,17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+
