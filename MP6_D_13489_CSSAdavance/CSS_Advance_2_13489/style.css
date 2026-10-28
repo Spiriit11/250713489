@@ -1,0 +1,119 @@
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #e6f4ea;
+    color: #1f2937;
+    margin: 0;
+    padding: 30px 0;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    color: black;
+    border-style:hidden;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    color: black;
+    border-style:hidden;
+}
+
+.tabel-1{
+    width: 100%;
+    background-color: cornflowerblue;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.tabel-2{
+    width: 100%;
+    background-color:greenyellow;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.tabel-3{
+    width: 100%;
+    background-color: cornflowerblue;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    position: relative;
+    top: 0;
+    padding: 10px 30px;
+    margin: 0 6px;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: outset;
+}
+
+input[type="submit"] {
+    background-color: #4f56c0;
+    border-color: #cdb9ef;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background-color: #6338a8;
+    top: -2px;
+}
+
+input[type="reset"] {
+    background-color: #e5e7eb;
+    border-color: #f3f4f6;
+    color: #1f2937;
+}
+
+input[type="reset"]:hover {
+    background-color: #d1d5db;
+    top: -2px;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    margin-right: 18px;
+}
+
+input[type="text"],textarea{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font: inherit;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+
+select:focus{
+    background-color:cyan;
+}
+
+form {
+    width: 85%;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+}

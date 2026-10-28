@@ -1,0 +1,94 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    color:black;
+    margin:0;
+    padding:24px;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: cornflowerblue;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    background-color: cornflowerblue;
+    border-style: groove;
+    border-width: 10px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+form {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cbd5e1;
+}
+
+input[type="text"],select,textarea{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    margin-left:8px;
+    margin-right: 4px;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label{
+    margin-left:8px;
+    margin-right: 4px;
+}
+
+
+input[type="submit"]{
+    position: relative;
+    top: 0;
+    color:blue;
+    border: 4px outset blue;
+}
+
+input[type="submit"]:hover{
+    background-color: greenyellow;
+    top: -2px;
+}
+
+input[type="file"]{
+    position: relative;
+    top: 0;
+    border: 2px outset blue;
+}
+
+input[type="file"]:hover{
+    background-color: greenyellow;
+    top: -2px;
+}
+
+input[type="reset"]{
+    position:relative;
+    top: 0;
+    color:blue;
+    border: 4px outset blue;
+}
+
+input[type="reset"]:hover{
+    background-color: greenyellow;
+    top: -2px;
+}
+
